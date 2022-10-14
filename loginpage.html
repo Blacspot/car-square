@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login_form</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+<body>
+    <div class="container">
+        <form class = "Login_form" method="post" action = "blacspot.html"  name = "form" onsubmit ="return validated()">
+           
+            <h1> BlacRegime</h1>
+            <u><center><h2>Sign Up</h2></center></u>
+           <b> <div class = "font1">First Name</div></b>
+            <input type = "text" name="text"></input>
+            <div id = "pass_error">Please fill up your Name</div>
+
+            <b><div class = "font3">Second Name</div></b>
+            <input type = "text" name="text"></input>
+            <div id = "pass_error">Please fill up your Name</div>
+
+            <b><div class = "font4"> Email </div></b>
+            <input autocomplete="off" type = "text" name="email"></input>
+            <div id = "email_error">Please fill up your Email </div>
+
+           <b> <div class = "font2">Gender</div></b>
+            <select>
+                <option>Male </option>
+                <option>Female</option>
+            </select>
+            <div id = "pass_error"></div>
+
+
+
+            <b><div class = "font2">Password</div></b>
+            <input type = "password" name="password"></input>
+            <div id = "pass_error">Please fill up your Password</div>
+
+            <b><div class = "font5"> Confirm Password</div></b>
+            <input type = "password" name="password"></input>
+            <div id = "pass_error">Please fill up your Password</div>
+
+            <center><button type = "submit">Confirm</button></center>
+
+            <div class = "font6">I agree to the terms & conditions</div>
+            <input type = "radio" name="k"></input>
+            <div id = "pass_error">Verification not complete</div>
+
+        </form>
+    </div>
+    <script src = "loginvalid.js"> </script>
+    
+</body>
+</head>
+</html>
